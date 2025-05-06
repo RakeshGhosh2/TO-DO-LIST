@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>My Tasks</h1>
+        </div>
+
+        <div class="input-container">
+            <input type="text" id="task-input" placeholder="Add a new task...">
+            <button id="add-btn">Add Task</button>
+        </div>
+
+        <ul class="tasks" id="tasks-list">
+            <!-- Tasks will be added here dynamically -->
+            <div class="empty-state">
+                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM5NGEzYjgiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0ibHVjaWRlIGx1Y2lkZS1jbGlwYm9hcmQtbGlzdCI+PHBhdGggZD0iTTggMTJoLjAxIi8+PHBhdGggZD0iTTEyIDEyaC4wMSIvPjxwYXRoIGQ9Ik0xNiAxMmguMDEiLz48cGF0aCBkPSJNOCA4aC4wMSIvPjxwYXRoIGQ9Ik0xMiA4aC4wMSIvPjxwYXRoIGQ9Ik0xNiA4aC4wMSIvPjxwYXRoIGQ9Ik0xNiAxNmgwIi8+PHBhdGggZD0iTTEyIDE2aDAiLz48cGF0aCBkPSJNOCAxNmgwIi8+PHJlY3Qgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIiB4PSIyIiB5PSIyIiByeD0iMiIvPjwvc3ZnPg=="
+                    alt="Clipboard">
+                <p>No tasks yet. Add one above!</p>
+            </div>
+        </ul>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
